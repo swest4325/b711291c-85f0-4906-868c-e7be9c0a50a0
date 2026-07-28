@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Local City Council</title>
+
+<script type="text/javascript" charset="utf-8">
+(function() {
+    'use strict';
+	
+  (function (g, e, n, es, ys) {
+    g['_genesysJs'] = e;
+    g[e] = g[e] || function () {
+      (g[e].q = g[e].q || []).push(arguments)
+    };
+    g[e].t = 1 * new Date();
+    g[e].c = es;
+    ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
+  })(window, 'Genesys', 'https://apps.mypurecloud.com.au/genesys-bootstrap/genesys.min.js', {
+    environment: 'prod-apse2',
+    deploymentId: '7a38c46e-ea58-43d2-a811-219d2c54c3ca'
+  });
+</script>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(90deg, #005f73, #0a9396);
+  color: white;
+  padding: 15px 40px;
+}
+header h1 {
+  margin: 0;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* HERO */
+.hero {
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 36px;
+  background: rgba(0,0,0,0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+/* QUICK LINKS */
+.quick-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 30px 40px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* CONTENT */
+.section {
+  padding: 30px 40px;
+}
+.section h3 {
+  color: #005f73;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+/* FOOTER */
+footer {
+  background: #001219;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Local City Council</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Community</a>
+    <a href="#">Planning</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Welcome to Your Local Council</h2>
+</div>
+
+<!-- QUICK ACTIONS -->
+<div class="quick-links">
+  <div class="card">💳 Pay Rates</div>
+  <div class="card">🗑 Bin Collection</div>
+  <div class="card">📢 Report an Issue</div>
+  <div class="card">🐕 Pet Registration</div>
+</div>
+
+<!-- NEWS -->
+<div class="section">
+  <h3>Latest News</h3>
+  <div class="grid">
+    <div class="card">
+      <h4>New Park Upgrade</h4>
+      <p>Community park redevelopment completed.</p>
+    </div>
+    <div class="card">
+      <h4>Rates Notice 2026</h4>
+      <p>Learn about upcoming rates changes.</p>
+    </div>
+    <div class="card">
+      <h4>Community Grants</h4>
+      <p>Apply for funding before June.</p>
+    </div>
+  </div>
+</div>
+
+<!-- EVENTS -->
+<div class="section">
+  <h3>Upcoming Events</h3>
+  <div class="grid">
+    <div class="card">🎉 Community Festival</div>
+    <div class="card">📚 Library Storytime</div>
+    <div class="card">🌱 Tree Planting Day</div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div class="section">
+  <h3>About Your Council</h3>
+  <p>
+    We provide services to support a safe, connected and thriving community.
+    Access services, report issues, and stay informed about what's happening in your city.
+  </p>
+</div>
+
+<footer>
+  <p>&copy; 2026 Local City Council | Contact: info@council.gov.au</p>
+</footer>
+</script>
+</script>
+</body>
+</html>
